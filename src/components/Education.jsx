@@ -23,7 +23,7 @@ const educationData = [
     id: 3,
     degree: "10th Grade",
     institution: "Sri Aurobindo Integral Education Center",
-    year: "2018 - 2019",
+    year: "2020",
     score: "70%",
     description: "Strong foundation in all subjects with active participation in co-curriculars.",
   }
