@@ -6,25 +6,25 @@ const educationData = [
   {
     id: 1,
     degree: "B.Tech in Information Technology",
-    institution: "XYZ Engineering College", // Placeholder since specific isn't provided
-    year: "2021 - Present",
-    score: "CGPA: 8.5",
+    institution: "Aditya Institute of Technology and Management", // Placeholder since specific isn't provided
+    year: "2022 - 2026",
+    score: "CGPA: 7.8",
     description: "Focusing on Data Science, Machine Learning, and core computer science principles.",
   },
   {
     id: 2,
     degree: "Intermediate",
-    institution: "ABC Junior College",
-    year: "2019 - 2021",
-    score: "95%",
+    institution: "Einstein Higher Secondary School",
+    year: "2020 - 2022",
+    score: "65%",
     description: "Majored in Mathematics, Physics, and Chemistry.",
   },
   {
     id: 3,
     degree: "10th Grade",
-    institution: "DEF High School",
+    institution: "Sri Aurobindo Integral Education Center",
     year: "2018 - 2019",
-    score: "GPA: 9.8",
+    score: "70%",
     description: "Strong foundation in all subjects with active participation in co-curriculars.",
   }
 ];
