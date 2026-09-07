@@ -162,7 +162,7 @@ const Hero = () => {
           <div className="w-16 h-1.5 bg-gradient-to-r from-accent to-primary rounded-full mb-6"></div>
 
           <p className="text-lg md:text-xl text-navy/80 font-medium mb-10 max-w-lg">
-            Aspiring Data Scientist & Web Developer
+            Aspiring Graduate
           </p>
 
           <a 

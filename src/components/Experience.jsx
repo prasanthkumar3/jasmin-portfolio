@@ -20,15 +20,62 @@ const Experience = () => {
           <p className="text-gray-soft text-lg mt-4">Real-world applications of my academic knowledge.</p>
         </motion.div>
 
-        <div className="space-y-16">
+        <div className="space-y-16 flex flex-col">
           
-          {/* Internship 1: Community Impact Research */}
+          {/* Internship 1: DeltaIOT E-commerce Development */}
           <motion.div 
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: false, amount: 0.1, margin: "-100px" }}
             transition={{ duration: 0.6 }}
-            className="relative group"
+            className="relative group order-1"
+          >
+            {/* Glowing background */}
+            <div className="absolute -inset-1 bg-gradient-to-r from-accent/50 to-primary/50 rounded-3xl blur opacity-25 group-hover:opacity-75 transition duration-1000 group-hover:duration-200" />
+            
+            <div className="glass-panel p-8 md:p-12 rounded-3xl relative overflow-hidden flex flex-col md:flex-row gap-8 items-center border border-white/60">
+              
+              {/* Illustration Area */}
+              <div className="w-full md:w-1/3 relative h-48 md:h-auto flex items-center justify-center bg-white/40 rounded-2xl p-6 border border-white">
+                <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iMiIgY3k9IjIiIHI9IjIiIGZpbGw9IiM5RURDRkYiIGZpbGwtb3BhY2l0eT0iMC40Ii8+PC9zdmc+')] opacity-50" />
+                
+                <div className="relative z-10 flex flex-col items-center gap-4 text-accent">
+                  <motion.div 
+                    animate={{ rotate: 360 }}
+                    transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
+                  >
+                    <Code2 size={64} className="text-navy drop-shadow-md" />
+                  </motion.div>
+                  <div className="flex gap-4">
+                    <Network size={32} className="text-accent animate-bounce" />
+                    <Database size={32} className="text-gray-soft animate-bounce delay-100" />
+                  </div>
+                </div>
+              </div>
+
+              {/* Content Area */}
+              <div className="w-full md:w-2/3">
+                <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-primary/40 rounded-full text-navy text-sm font-semibold mb-4 border border-primary/50">
+                  <Code2 size={16} /> Software Development Internship
+                </div>
+                <h3 className="text-3xl font-bold text-navy mb-2">E-commerce Development Intern</h3>
+                <p className="text-lg font-semibold text-accent mb-4">DeltaIOT <span className="text-gray-soft font-medium">· 3 months</span></p>
+                
+                <p className="text-gray-soft leading-relaxed">
+                  Currently contributing to an e-commerce project using Python, FastAPI, Docker, and GitHub. Building and supporting backend services, developing APIs, and collaborating on real-world software development workflows.
+                </p>
+              </div>
+            </div>
+          </motion.div>
+
+
+          {/* Internship 3: Community Impact Research */}
+          <motion.div 
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: false, amount: 0.1, margin: "-100px" }}
+            transition={{ duration: 0.6 }}
+            className="relative group order-3"
           >
             {/* Glowing background */}
             <div className="absolute -inset-1 bg-gradient-to-r from-accent/50 to-primary/50 rounded-3xl blur opacity-25 group-hover:opacity-75 transition duration-1000 group-hover:duration-200" />
@@ -79,7 +126,7 @@ const Experience = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: false, amount: 0.1, margin: "-100px" }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="relative group"
+            className="relative group order-2"
           >
             {/* Glowing background */}
             <div className="absolute -inset-1 bg-gradient-to-r from-lavender/50 to-accent/50 rounded-3xl blur opacity-25 group-hover:opacity-75 transition duration-1000 group-hover:duration-200" />

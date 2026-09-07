@@ -10,8 +10,6 @@ import { MessageCircle, Lightbulb, Users, BarChart } from 'lucide-react';
 
 const row1 = [
   { name: "Python", icon: <FaPython /> },
-  { name: "Java", icon: <FaJava /> },
-  { name: "C", icon: <SiC /> },
   { name: "JavaScript", icon: <SiJavascript /> },
   { name: "HTML", icon: <FaHtml5 /> },
   { name: "CSS", icon: <FaCss3Alt /> },
@@ -23,7 +21,8 @@ const row2 = [
   { name: "MongoDB", icon: <SiMongodb /> },
   { name: "SQL", icon: <SiMysql /> },
   { name: "Data Analysis", icon: <BarChart /> },
-  { name: "Machine Learning", icon: <SiScikitlearn /> },
+  { name: "Annotation", icon: <FaDatabase /> },
+  { name: "fastAPI", icon: <SiDjango /> },
   { name: "Django", icon: <SiDjango /> },
   { name: "Communication", icon: <MessageCircle size={24} /> },
   { name: "Problem Solving", icon: <Lightbulb size={24} /> },
